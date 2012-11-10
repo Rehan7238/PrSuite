@@ -1,0 +1,21 @@
+name: PrSuite
+version: 1.0
+description: Suite of Pr Plugins
+main: me.mikey.com.PrMain
+permissions:
+  command.home:
+    description: A command
+    default: true
+  command.otherhome:
+    description: A command
+    default: op
+  command.adminchat:
+    description: A command
+    default: op
+commands:
+    home:
+        description: I can warp to my bed, what can you do?
+        permission: command.bed
+    a:
+        description: APSC FTW! Admin Private Social Club!
+        permission: command.adminchat
